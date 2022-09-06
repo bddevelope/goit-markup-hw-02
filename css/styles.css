@@ -1,0 +1,62 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+:root {
+    --hover-color: #2196F3;
+    --focus-color: #2196F3;
+    --text-generic-color: #212121;
+    --text-generic-gray: #757575;
+    --text-generic-footer: #FFFFFF;
+
+}
+body {
+font-family: Roboto;
+color:var(--text-generic-color) ;
+
+}
+
+.contacts-list .link:hover{
+    color:var(--hover-color)
+}
+.contacts-list .link:focus{
+    color: var(--focus-color);
+}
+
+.footer-contacts-list .link:focus{
+    color: var(--focus-color);
+}
+.footer-contacts-list .link:hover{
+    color: var(--hover-color);
+}
+
+.nav-list .link:focus{
+    color: var(--focus-color);
+}
+
+.button-list .link:focus{
+    color: var(--focus-color);
+}
+
+.nav-list .link:hover{
+    color: var(--hover-color);
+}
+
+.button-list.link:hover{
+    color: var(--hover-color);
+}
+.contacts-list .link:visited
+
+button {
+    cursor: pointer;
+}
+
+img {
+width: 370px;
+height: 290px;
+}
