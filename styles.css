@@ -1,3 +1,61 @@
-.body {
+body {
+  font-family: Roboto;
+  
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+ul{
+    list-style: none;
+}
+
+:root {
+  --background-footer-color: #2e2f42; /* navyblue */
+  --background-team-color: #F4F4FD; /* cloud */
+  --hero-title-color: #FFFFFF;
+  --footer-text-color: #F4F4FD; /* cloud */
+  --titles-color: #2E2F42; /* navyblue */
+  --subtext-color:#434455; /* slate */
+  --button-color: #4D5AE5; /* iris */
+  --buttons-portfolio-color: #404BBF; /* ocean */
+  --nav-color:#E7E9FC ; /* cornsta */
+
+}
+.header{
+    background-color: var(--nav-color);
+}
+.hero-title {
+  width: 496px;
+  height: 120px;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  letter-spacing: 0.02em;
+  color: var(--hero-title-color);
+}
+.btn{
+    background-color: var(--button-color);
+    color:var(--hero-title-color) ;
     font-family: Roboto;
+}
+.btn-filter{
+    font-family: Roboto;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-s
+}
+.hero{
+    background: var(--background-footer-color)
+ 
+}
+.section-team{
+    background-color: var(--background-team-color);
+}
+.footer {
+    background-color: var(--background-footer-color);
+}
+.footer-text{
+    color: var(--footer-text-color);
 }
