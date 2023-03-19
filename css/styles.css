@@ -1,6 +1,8 @@
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   color: var(--titles-color);
+  color: #434455
+  background-color:var(var(--hero-title-color))
 }
 /*
 a{
