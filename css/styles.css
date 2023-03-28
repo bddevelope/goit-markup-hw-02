@@ -35,16 +35,20 @@ ul{
 
 .hero-title {
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--hero-title-color);
+  text-align: center;
+
 }
 .btn {
+  font-family: "Roboto", sans-serif;
   background-color: var(--button-color);
   color: var(--hero-title-color);
   font-family: Roboto;
   cursor: pointer;
   font-size: 16px;
+  font-weight: 500;
   line-height: calc(24/16);
   letter-spacing: 0.04em;
 }
@@ -65,6 +69,10 @@ ul{
   background-color: var(--buttons-portfolio-color);
   color: var(--hero-title-color);
 }
+.btn-filter:focus{
+  background-color: var(--buttons-portfolio-color);
+  color: var(--hero-title-color);}
+  
 .logocolor-two{
   color: var(--background-team-color)
 }
@@ -116,18 +124,43 @@ ul{
 }
 .active{
   color: var(--button-color);
+
+}
+.subtext{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtext-color);
+
 }
 .subtext, .contacts, .navtext{
   font-size: 16px;
   line-height: calc(24/16);
   letter-spacing: 0.02em;
 }
-.caption{
+.caption-team{
   font-size: 36px;
-  line-height: calc(40/36);
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--titles-color);
+  font-weight: 500;
+
+}
+.caption{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--titles-color);
+
 }
 .subject{
   font-size: 20px;
-  line-height: calc(24/20);
-  letter-spacing: 0.02em; }
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--titles-color);
+
+}
