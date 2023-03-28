@@ -1,7 +1,19 @@
+:root {
+  --background-footer-color: #2e2f42; /* navyblue */
+  --background-team-color: #f4f4fd; /* cloud */
+  --hero-title-color: #ffffff;
+  --footer-text-color: #f4f4fd; /* cloud */
+  --titles-color: #2e2f42; /* navyblue */
+  --subtext-color: #434455; /* slate */
+  --button-color: #4d5ae5; /* iris */ 
+  --buttons-portfolio-color: #404bbf; /* ocean */
+  --nav-color: #e7e9fc; /* cornsta */
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--titles-color);
-  color: #434455;
+  color: var(--subtext-color);
   background-color: var(--hero-title-color);
 }
 /*
@@ -18,26 +30,9 @@ ul{
 }
 .link {
   text-decoration: none;
-  font-style: normal;
-  text-decoration-color: none;
 }
 
-:root {
-  --background-footer-color: #2e2f42; /* navyblue */
-  --background-team-color: #f4f4fd; /* cloud */
-  --hero-title-color: #ffffff;
-  --footer-text-color: #f4f4fd; /* cloud */
-  --titles-color: #2e2f42; /* navyblue */
-  --subtext-color: #434455; /* slate */
-  --button-color: #4d5ae5; /* iris */ 
-  --buttons-portfolio-color: #404bbf; /* ocean */
-  --nav-color: #e7e9fc; /* cornsta */
-}
-
-  
 .hero-title {
-  width: 496px;
-  height: 120px;
   font-size: 56px;
   line-height: calc(60 / 56);
   letter-spacing: 0.02em;
@@ -56,10 +51,11 @@ ul{
   background-color: var(--buttons-portfolio-color);
 }
 .btn-filter {
-  font-family: Roboto;
+  font-family: inherit;
   background-color: var(--nav-color);
   color: var(--buttons-portfolio-color);
   cursor: pointer;
+  font-weight: 500;
   font-size: 16px;
   line-height: calc(24/16);
   letter-spacing: 0.04em;
@@ -68,10 +64,10 @@ ul{
   background-color: var(--buttons-portfolio-color);
   color: var(--hero-title-color);
 }
-.logocolor3{
+.logocolor-two{
   color: var(--background-team-color)
 }
-.logocolor1{
+.logocolor-one{
   color:var(--background-footer-color);
 }
 
@@ -127,7 +123,7 @@ ul{
   color: var(--buttons-portfolio-color);
 }
 .active{
-  color: var(--buttons-portfolio-color);
+  color: var(--button-color);
 }
 .subtext, .contacts, .navtext{
   font-size: 16px;
