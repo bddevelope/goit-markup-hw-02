@@ -60,7 +60,7 @@ ul{
 .btn-filter {
   font-family: inherit;
   background-color: var(--footer-text-color);
-  color: var(--buttons-portfolio-color);
+  color: var(--button-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -97,7 +97,7 @@ ul{
   background: var(--background-footer-color);
 }
 .section-team {
-  background-color: var(--background-team-color);
+  background-color: var(--hero-title-color);
 }
 .footer {
   background-color: var(--background-footer-color);
@@ -148,6 +148,7 @@ ul{
 
  }
 .caption-team{
+  list-style: none;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
