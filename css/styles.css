@@ -97,7 +97,7 @@ ul{
   background: var(--background-footer-color);
 }
 .section-team {
-  background-color: var(--hero-title-color);
+  background-color: var(--background-team-color);
 }
 .footer {
   background-color: var(--background-footer-color);
@@ -115,9 +115,13 @@ ul{
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-
-
 }
+ .contacts{
+   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtext-color);
+ }
 .contacts:hover{
   color: var(--buttons-portfolio-color);
 }
@@ -134,12 +138,7 @@ ul{
   letter-spacing: 0.02em;
   color: var(--subtext-color);
 }
- .contacts{
-   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--subtext-color);
- }
+
  .navtext{
   font-size: 16px;
   line-height: 1.5;
@@ -155,7 +154,7 @@ ul{
   text-transform: capitalize;
   text-align: center;
   color: var(--titles-color);
-  font-weight: 500;
+  font-weight: 700;
 
 }
 .caption{
@@ -173,4 +172,7 @@ ul{
   font-weight: 500;
   color: var(--titles-color);
 
+}
+.list-bg{
+  background-color: var(--hero-title-color);
 }
