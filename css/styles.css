@@ -32,7 +32,9 @@ ul{
   text-decoration: none;
   font-style: normal;
 }
-
+.adress{
+  font-style: normal ;
+}
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -73,7 +75,8 @@ ul{
 }
 .btn-filter:focus{
   background-color: var(--buttons-portfolio-color);
-  color: var(--hero-title-color);}
+  color: var(--hero-title-color);
+}
   
 .logocolor-two{
   color: var(--background-team-color)
@@ -126,6 +129,12 @@ ul{
   color: var(--buttons-portfolio-color);
 }
 .navtext:hover{
+  color: var(--buttons-portfolio-color);
+}
+.contacts:focus{
+  color: var(--buttons-portfolio-color);
+}
+.navtext:focus{
   color: var(--buttons-portfolio-color);
 }
 .active{
