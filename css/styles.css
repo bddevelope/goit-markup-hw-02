@@ -45,7 +45,6 @@ ul{
   font-family: "Roboto", sans-serif;
   background-color: var(--button-color);
   color: var(--hero-title-color);
-  font-family: Roboto;
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
@@ -55,9 +54,12 @@ ul{
 .btn:hover{
   background-color: var(--buttons-portfolio-color);
 }
+.btn:focus{
+  background-color: var(--buttons-portfolio-color);
+}
 .btn-filter {
   font-family: inherit;
-  background-color: var(--nav-color);
+  background-color: var(--footer-text-color);
   color: var(--buttons-portfolio-color);
   cursor: pointer;
   font-weight: 500;
@@ -131,13 +133,20 @@ ul{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--subtext-color);
-
 }
-.subtext, .contacts, .navtext{
-  font-size: 16px;
-  line-height: calc(24/16);
+ .contacts{
+   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-}
+  color: var(--subtext-color);
+ }
+ .navtext{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtext-color);
+
+ }
 .caption-team{
   font-size: 36px;
   line-height: 1.11;
