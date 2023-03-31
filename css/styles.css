@@ -16,6 +16,7 @@ body {
   color: var(--subtext-color);
   background-color: var(--hero-title-color);
 }
+
 /*
 a{
     text-decoration: none;
@@ -32,7 +33,7 @@ ul{
   text-decoration: none;
   font-style: normal;
 }
-.adress{
+.address{
   font-style: normal ;
 }
 .hero-title {
@@ -108,8 +109,11 @@ ul{
 .footer-text {
   color: var(--footer-text-color);
 }
-.subtext, .contacts{
+.subtext {
   color: var(--subtext-color);
+}
+.contacts{
+ color: var(--subtext-color);
 }
 .navtext{
   color: var(--background-footer-color);
@@ -128,19 +132,19 @@ ul{
 .contacts:hover{
   color: var(--buttons-portfolio-color);
 }
-.navtext:hover{
+.navtext-link:hover{
   color: var(--buttons-portfolio-color);
 }
 .contacts:focus{
   color: var(--buttons-portfolio-color);
 }
-.navtext:focus{
+.navtext-link:focus{
   color: var(--buttons-portfolio-color);
 }
-.active{
+/* .active{
   color: var(--button-color);
 
-}
+} */
 .subtext{
   font-size: 16px;
   line-height: 1.5;
@@ -148,12 +152,19 @@ ul{
   color: var(--subtext-color);
 }
 
- .navtext{
+ .navtext-link{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-
+  font-weight: 500;
+  color: var(--background-footer-color);
+ }
+  .navtext-li{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--background-footer-color);
  }
 .caption-team{
   list-style: none;
